@@ -1,1 +1,63 @@
 /* Dont forget to reset your defaults (*) */
+/* * {
+    margin: 0;
+    padding: 0;
+} */
+
+main {
+    width: 100%;
+    height: 100vh;
+ 
+}
+body {
+    background-color: linear-gradient (green, orange);
+    align-items: center;
+}
+.sea-scape {
+    width: 200px;
+}
+
+#nav-bar {
+    display: flexbox;
+    justify-content: space-between;
+}
+
+a:hover {
+    background-color: yellow;
+  }
+
+h1 {
+    font-family: serif;
+    color: yellow;
+}
+h2 {
+    font-family: Arial;
+    color: green;
+}
+h3 {
+    font-family: Tahoma;
+    color: pink;
+}
+
+ol {
+    list-style: lower-roman;
+}
+
+li {
+    font-family: Verdana;
+}
+#my-table {
+    max-width: 400px;
+    border: 1px solid black;
+    background-color: lightcoral;
+}
+
+.form-wrapper {
+    max-width: 450px;
+    border: 2px solid red;
+    background-color: aqua;
+    align-items: center;
+    text-align: left;
+}
+
+
